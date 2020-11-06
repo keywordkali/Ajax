@@ -25,7 +25,15 @@ const getPK = () => {
 }
 
 const displaySingle = (user)=>{
-
+$("#pid").val(user.id);
+$("#pusername").val(user.userName);
+$("#ppassword").val(user.password);
+$("#pfn").val(user.firstName);
+$("#pln").val(user.lastName);
+$("#ppn").val(user.phoneNumber);
+$("#pem").val(user.email);
+$("#pisr").val(user.reviewer);
+$("#pisad").val(user.admin);
 }
 const displayAll=(users)=>{
 
